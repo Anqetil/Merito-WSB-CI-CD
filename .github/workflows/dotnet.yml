@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: dotnet restore
-    - name: Build
+    - name: Build (action todo Cdelivery)
       run: dotnet build --no-restore
-    - name: Test
+    - name: Test (actio todo as Cintegration)
       run: dotnet test --no-build --verbosity normal
